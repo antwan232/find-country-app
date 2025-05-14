@@ -4,5 +4,5 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
 	plugins: [react(), tailwindcss()],
-	base: "/src",
+	base: "find-country-app",
 });
